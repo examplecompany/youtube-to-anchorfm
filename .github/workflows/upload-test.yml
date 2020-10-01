@@ -1,11 +1,6 @@
 name: '[DEMO] Upload Episode from YouTube To Anchor.Fm'
 
-on:
-  push:
-    paths: 
-      - episode.json
-    branches: [master]
-
+on: push 
 jobs:
   upload_episode:
     runs-on: ubuntu-latest
